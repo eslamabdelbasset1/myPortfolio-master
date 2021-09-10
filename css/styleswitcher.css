@@ -76,11 +76,11 @@
 	border-top-left-radius: 4px;
 	padding: 7px 11px 5px 9px;
 	cursor: pointer;
+	transition: all .5s;
 }
 
 #hideSwitcher {
 	cursor: pointer;
-	line-height: 43px;
 	font-size: 38px;
 	margin-bottom: 0px;
 	color: #999;
@@ -96,6 +96,7 @@
 	border-radius: 4px 0 0 4px;
 	line-height: 38px;
 	border-left: 0;
+	transition: all .5s;
 }
 
 #switcher .content-switcher {
@@ -126,6 +127,7 @@
 #showSwitcher i {
 	font-size: 25px;
 	color: #222;
+	transition: all .3s;
 }
 
 #switcher .styled-select select {
