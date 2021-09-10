@@ -1050,7 +1050,7 @@ div.container.page-title {
   height: 100%;
   width: 100%;
   display: table;
-  /*margin-left: 30vw;*/
+  margin-left: 30vw;
   max-width: 550px;
 }
 
@@ -2268,11 +2268,11 @@ ul.social-intro li a:hover i {
 @media (max-width: 576px) {
 
   .main-text-container {
-    max-width: 70%;
+    max-width: 75%;
     position: absolute;
     top: 0;
-    left: 23%;
-    transform: translateX(-12%);
+    left: 0;
+    transform: translateX(-22%);
   }
   .main-text h1 {
     font-size: 16px;
