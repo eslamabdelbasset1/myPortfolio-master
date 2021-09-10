@@ -1050,7 +1050,7 @@ div.container.page-title {
   height: 100%;
   width: 100%;
   display: table;
-  margin-left: 30vw;
+  /*margin-left: 30vw;*/
   max-width: 550px;
 }
 
@@ -2266,16 +2266,24 @@ ul.social-intro li a:hover i {
 }
 
 @media (max-width: 576px) {
+
   .main-text-container {
-    max-width: 50%;
+    max-width: 70%;
+    position: absolute;
+    top: 0;
+    left: 23%;
+    transform: translateX(-12%);
   }
   .main-text h1 {
-    font-size: 12px;
+    font-size: 16px;
+  }
+  .main-text h3 {
+    font-size: 14px;
   }
   .main-text p {
     margin: 11px 0 23px;
-    font-size: 9px;
-    line-height: 23px;
+    font-size: 12px;
+    line-height: 22px;
     font-weight: 400;
     font-family: 'Open Sans', sans-serif;
   }
@@ -2317,10 +2325,6 @@ ul.social-intro li a:hover i {
   .container {
     width: 100%;
   }
-  .main-text h1 {
-    font-size: 22px;
-  }
-
   .infos {
     padding-bottom: 20px;
   }
@@ -2390,15 +2394,15 @@ ul.social-intro li a:hover i {
   .page-title h2 {
     font-size: 35px;
   }
-  .main-text h3 {
-    font-size: 10px;
-  }
-  .main-text p {
-    font-size: 9px;
-  }
-  .main-text h1 {
-    font-size: 12px;
-  }
+  /*.main-text h3 {*/
+  /*  font-size: 10px;*/
+  /*}*/
+  /*.main-text p {*/
+  /*  font-size: 9px;*/
+  /*}*/
+  /*.main-text h1 {*/
+  /*  font-size: 12px;*/
+  /*}*/
   .page-title .title-head-subtitle {
     font-size: 14px;
   }
@@ -2410,4 +2414,12 @@ ul.social-intro li a:hover i {
     font-size: 10px;
     padding: 0 15px;
   }
+  /*.main-text-container {*/
+  /*  max-width: 50%;*/
+  /*  position: absolute;*/
+  /*  top: 0;*/
+  /*  left: 0;*/
+  /*  transform: translateX(-12px);*/
+  /*  margin-left: 0 !important;*/
+  /*}*/
 }
