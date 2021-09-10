@@ -1051,7 +1051,7 @@ div.container.page-title {
   width: 100%;
   display: table;
   margin-left: 30vw;
-  max-width: 550px;
+  max-width: 40%;
 }
 
 .main-text {
@@ -1069,8 +1069,8 @@ div.container.page-title {
 }
 
 .main-text h1 {
-  font-size: 42px;
-  line-height: 42px;
+  font-size: 2.2rem;
+  line-height: 45px;
   font-weight: 500;
   margin: 19px 0 10px;
   color: #555;
