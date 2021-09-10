@@ -20,13 +20,7 @@ Version: 1.0
 			- Personal Informations
 			- Resume Panels
 			- Skills
-		- Portfolio
-		+ Blog
-			- Latest Posts
-			+ Blog Page
-				- Posts
-				- Comments
-				- Comments Form
+		+ Portfolio
 		+ Contact
 			- Left Side
 			- Social Media Icons
@@ -223,7 +217,9 @@ body.dark .resume-items .item a, body.dark .project-info-container {
   background: #333;
 }
 
-body.dark, body.dark .navigation, body.dark .resume-items .item .bullet, body.dark #main>section, body.dark #home .home-content, body.dark .carousel-controls, body.dark .arrow {
+body.dark, body.dark .navigation, body.dark .resume-items .item .bullet,
+body.dark #main>section, body.dark #home .home-content,
+body.dark .carousel-controls, body.dark .arrow {
   background: #222;
 }
 
@@ -231,11 +227,17 @@ body.dark .preloader::before, body.dark .preloader::after {
   background: #111;
 }
 
-body.dark .personal-info h6, body.dark .personal-info ul li span, body.dark .contact-container .contact .rightside h6, body.dark .main-text h1, body.light.dark-header .main-text h1, body.dark .project-details, body.dark .resume-items .item .card-header, body.dark .resume-items .item a:before, body.dark .skills li, body.dark .skill-text, body.dark .page-title h2, body.dark .contact-container .contact .leftside h6, body.dark .title-section {
+body.dark .personal-info h6, body.dark .personal-info ul li span,
+body.dark .contact-container .contact .rightside h6, body.dark .main-text h1,
+body.light.dark-header .main-text h1, body.dark .project-details, body.dark .resume-items .item .card-header,
+body.dark .resume-items .item a:before, body.dark .skills li, body.dark .skill-text, body.dark .page-title h2,
+body.dark .contact-container .contact .leftside h6, body.dark .title-section {
   color: #fff;
 }
 
-body.dark .cd-stretchy-nav ul a, body.dark .cd-stretchy-nav ul a span, body.light.dark-header .cd-stretchy-nav.lighter ul a span, body.light .cd-stretchy-nav.lighter-in-portfolio ul a span {
+body.dark .cd-stretchy-nav ul a, body.dark .cd-stretchy-nav ul a span,
+body.light.dark-header .cd-stretchy-nav.lighter ul a span,
+body.light .cd-stretchy-nav.lighter-in-portfolio ul a span {
   color: rgba(255, 255, 255, .9);
 }
 
@@ -274,7 +276,8 @@ body.dark .cd-nav-trigger.menu-is-open {
   border: 0;
 }
 
-body.dark .cd-nav-trigger span::before, body.dark .cd-nav-trigger span::after {
+body.dark .cd-nav-trigger span::before,
+body.dark .cd-nav-trigger span::after {
   background: #fff;
 }
 
@@ -298,13 +301,21 @@ body.dark #cd-nav ul {
   border: 1px solid #353535;
 }
 
-body.dark .contact-container .contact .rightside form .form-group input[type=text], body.dark .contact-container .contact .rightside form .form-group input[type=email], body.dark .contact-container .contact .rightside form .form-group textarea, body.dark .comments-form .form-group input[type=text], body.dark .comments-form .form-group input[type=email], body.dark .comments-form .form-group textarea {
+body.dark .contact-container .contact .rightside form .form-group input[type=text],
+body.dark .contact-container .contact .rightside form .form-group input[type=email],
+body.dark .contact-container .contact .rightside form .form-group textarea
+{
   background: #333;
   border: 1px solid #444;
   color: #fff;
 }
 
-body.dark .comments-form .form-group i, body.dark .contact-container .contact .rightside form .form-group i, body.dark .main-text h3, body.light.dark-header .main-text h3, body.dark p, body.light.dark-header .main-text p, body.dark .personal-info ul li, body.dark .contact-container .contact .leftside, body.dark .navigation a {
+body.dark .contact-container .contact .rightside form .form-group i,
+body.dark .main-text h3,
+body.light.dark-header .main-text h3,
+body.dark p, body.light.dark-header .main-text p,
+body.dark .personal-info ul li, body.dark .contact-container .contact .leftside,
+body.dark .navigation a {
   color: #eee;
 }
 
@@ -347,7 +358,8 @@ body.dark .profile-picture img {
   backface-visibility: hidden;
 }
 
-.preloader::before, .preloader::after {
+.preloader::before,
+.preloader::after {
   content: '';
   position: absolute;
   left: 0;
@@ -369,7 +381,8 @@ body.dark .profile-picture img {
   background: #fff;
 }
 
-.preloader.loaded::before, .preloader.loaded::after {
+.preloader.loaded::before,
+.preloader.loaded::after {
   transition: .4s linear;
 }
 
@@ -525,7 +538,8 @@ html:not(.lt-ie10) .not-animated {
     color: transparent;
     pointer-events: auto;
   }
-  .cd-nav-trigger span, .cd-nav-trigger span::after, .cd-nav-trigger span::before {
+  .cd-nav-trigger span, .cd-nav-trigger span::after,
+  .cd-nav-trigger span::before {
     /* this is the hamburger icon */
     position: absolute;
     width: 16px;
@@ -726,7 +740,8 @@ html:not(.lt-ie10) .not-animated {
   .cd-stretchy-nav.nav-is-visible.lighter ul span {
     text-shadow: none;
   }
-  .no-touch .cd-stretchy-nav.nav-is-visible ul a:hover, .no-touch .cd-stretchy-nav.nav-is-visible.lighter ul a:hover {
+  .no-touch .cd-stretchy-nav.nav-is-visible ul a:hover,
+  .no-touch .cd-stretchy-nav.nav-is-visible.lighter ul a:hover {
     color: #ffffff;
     background-color: initial;
     opacity: 1;
@@ -734,7 +749,8 @@ html:not(.lt-ie10) .not-animated {
   .no-touch .cd-stretchy-nav.nav-is-visible.lighter ul a:hover {
     color: #999;
   }
-  .no-touch .cd-stretchy-nav.nav-is-visible ul a:hover:after, .no-touch .cd-stretchy-nav.nav-is-visible.lighter ul a:hover:after {
+  .no-touch .cd-stretchy-nav.nav-is-visible ul a:hover:after,
+  .no-touch .cd-stretchy-nav.nav-is-visible.lighter ul a:hover:after {
     opacity: 1;
   }
   .no-touch .cd-stretchy-nav.nav-is-visible ul a:hover span {
@@ -744,27 +760,32 @@ html:not(.lt-ie10) .not-animated {
     -o-transform: translateX(5px);
     transform: translateX(5px);
   }
-  .cd-stretchy-nav.nav-is-visible ul li:first-of-type a::after, .cd-stretchy-nav.nav-is-visible ul li:first-of-type span {
+  .cd-stretchy-nav.nav-is-visible ul li:first-of-type a::after,
+  .cd-stretchy-nav.nav-is-visible ul li:first-of-type span {
     -webkit-animation-delay: 0.05s;
     -moz-animation-delay: 0.05s;
     animation-delay: 0.05s;
   }
-  .cd-stretchy-nav.nav-is-visible ul li:nth-of-type(2) a::after, .cd-stretchy-nav.nav-is-visible ul li:nth-of-type(2) span {
+  .cd-stretchy-nav.nav-is-visible ul li:nth-of-type(2) a::after,
+  .cd-stretchy-nav.nav-is-visible ul li:nth-of-type(2) span {
     -webkit-animation-delay: 0.1s;
     -moz-animation-delay: 0.1s;
     animation-delay: 0.1s;
   }
-  .cd-stretchy-nav.nav-is-visible ul li:nth-of-type(3) a::after, .cd-stretchy-nav.nav-is-visible ul li:nth-of-type(3) span {
+  .cd-stretchy-nav.nav-is-visible ul li:nth-of-type(3) a::after,
+  .cd-stretchy-nav.nav-is-visible ul li:nth-of-type(3) span {
     -webkit-animation-delay: 0.15s;
     -moz-animation-delay: 0.15s;
     animation-delay: 0.15s;
   }
-  .cd-stretchy-nav.nav-is-visible ul li:nth-of-type(4) a::after, .cd-stretchy-nav.nav-is-visible ul li:nth-of-type(4) span {
+  .cd-stretchy-nav.nav-is-visible ul li:nth-of-type(4) a::after,
+  .cd-stretchy-nav.nav-is-visible ul li:nth-of-type(4) span {
     -webkit-animation-delay: 0.2s;
     -moz-animation-delay: 0.2s;
     animation-delay: 0.2s;
   }
-  .cd-stretchy-nav.nav-is-visible ul li:nth-of-type(5) a::after, .cd-stretchy-nav.nav-is-visible ul li:nth-of-type(5) span {
+  .cd-stretchy-nav.nav-is-visible ul li:nth-of-type(5) a::after,
+  .cd-stretchy-nav.nav-is-visible ul li:nth-of-type(5) span {
     -webkit-animation-delay: 0.25s;
     -moz-animation-delay: 0.25s;
     animation-delay: 0.25s;
@@ -899,7 +920,7 @@ body.fullscreendark #main>section#home {
   opacity: .85;
 }
 body.fullscreenlight #main>section#home {
-  background: #151515 url(../img/intro-bg.jpg) no-repeat center bottom;
+  background: #FFFFFF url(../img/intro-bg.jpg) no-repeat center bottom;
   webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -945,7 +966,8 @@ body.bgimage #main>section#home {
   background-position: center center;
 }
 
-body.bgimage #main>section#home:after, body.bgvideo #main>section#home:after {
+body.bgimage #main>section#home:after,
+body.bgvideo #main>section#home:after {
   content: '';
   position: absolute;
   background-color: rgba(0, 0, 0, .85);
@@ -1231,14 +1253,16 @@ body.light .personal-info ul h6 {
   padding-right: 7px;
 }
 
-.resume-items .item .bullet:before, .resume-items .item-label {
+.resume-items .item .bullet:before,
+.resume-items .item-label {
   line-height: 40px!important;
   top: 0;
   text-align: center;
   color: #fff;
 }
 
-.resume-items .item .card, .resume-items .item .card-header {
+.resume-items .item .card,
+.resume-items .item .card-header {
   background-color: transparent;
   font-size: 16px;
   border: 0;
@@ -1344,7 +1368,8 @@ body.light .personal-info ul h6 {
 }
 
 @media (min-width:768px) {
-  .resume-items .item .bullet, .resume-items .item:before {
+  .resume-items .item .bullet,
+  .resume-items .item:before {
     display: block;
   }
   .resume-items .item-label {
@@ -1877,7 +1902,9 @@ ul.social-intro li a:hover i {
   margin-bottom: 30px;
 }
 
-.contact-container .contact .rightside form .form-group input[type=text], .contact-container .contact .rightside form .form-group input[type=email], .contact-container .contact .rightside form .form-group textarea {
+.contact-container .contact .rightside form .form-group input[type=text],
+.contact-container .contact .rightside form .form-group input[type=email],
+.contact-container .contact .rightside form .form-group textarea {
   border-radius: 30px;
   outline: none;
   box-shadow: none !important;
@@ -1885,7 +1912,8 @@ ul.social-intro li a:hover i {
   font-family: 'Open Sans', sans-serif;
 }
 
-.contact-container .contact .rightside form .form-group input[type=text], .contact-container .contact .rightside form .form-group input[type=email] {
+.contact-container .contact .rightside form .form-group input[type=text],
+.contact-container .contact .rightside form .form-group input[type=email] {
   height: 46px;
   padding-left: 49px;
 }
@@ -1937,7 +1965,14 @@ ul.social-intro li a:hover i {
 
 @media only screen and (max-width:1100px) {
   .main-text-container {
-    max-width: 500px;
+    max-width: 75%;
+    height: 100%;
+    display: table;
+    /* margin-left: 15vw; */
+    /* position: absolute; */
+    top: 0;
+    left: 20%;
+    transform: translate(-20%);
   }
 }
 
@@ -1994,7 +2029,8 @@ ul.social-intro li a:hover i {
   body.dark .project-info-container {
     background: #222;
   }
-  .page-title .title-head-subtitle:before, .page-title .title-head-subtitle:after {
+  .page-title .title-head-subtitle:before,
+  .page-title .title-head-subtitle:after {
     display: none;
   }
   .personal-info-mobile img {
@@ -2087,7 +2123,7 @@ ul.social-intro li a:hover i {
   }
   .navigation li:nth-child(2) {
     left: 24px;
-    top: 28%;
+    top: 4%;
   }
   .navigation li:nth-child(3) {
     right: 24px;
@@ -2096,7 +2132,7 @@ ul.social-intro li a:hover i {
   .navigation li:nth-child(4) {
     position: absolute;
     left: 24px;
-    top: 24px;
+    bottom: 24px;
   }
   .navigation a {
     color: #555;
@@ -2116,7 +2152,8 @@ ul.social-intro li a:hover i {
   .btn-secondary.close-project {
     display: none !important;
   }
-   .resume-container .container, .contact-container .container {
+   .resume-container .container,
+   .contact-container .container {
     padding-left: 30px;
     padding-right: 30px;
   }
@@ -2266,7 +2303,24 @@ ul.social-intro li a:hover i {
 }
 
 @media (max-width: 576px) {
-
+  .navigation li:first-child {
+    /*display: none;*/
+    right: 24px;
+    top: 4%;
+  }
+  .navigation li:nth-child(2) {
+    left: 24px;
+    top: 28%;
+  }
+  .navigation li:nth-child(3) {
+    right: 24px;
+    bottom: 24px;
+  }
+  .navigation li:nth-child(4) {
+    position: absolute;
+    left: 24px;
+    bottom: 24px;
+  }
   .main-text-container {
     max-width: 75%;
     position: absolute;
@@ -2338,15 +2392,6 @@ ul.social-intro li a:hover i {
     display: none;
   }
 
-  .comments-form button {
-    margin-bottom: 50px;
-  }
-  .comments-reply {
-    margin-left: 30px;
-  }
-  .comments-list .comment-date {
-    display: none;
-  }
   .project-info-container .projects-info h3 {
     font-size: 20px;
   }
@@ -2361,7 +2406,8 @@ ul.social-intro li a:hover i {
     padding-left: 8px;
     padding-right: 8px;
   }
-  .portfolio-section ul li, .comments-form form .form-group, .comments-form form .submit-form, .contact-container .contact .rightside form .form-group {
+  .portfolio-section ul li,
+  .contact-container .contact .rightside form .form-group {
     margin-bottom: 24px;
   }
   .project-info-container img, .videocontainer, .carousel, .responsive-video {
@@ -2394,15 +2440,7 @@ ul.social-intro li a:hover i {
   .page-title h2 {
     font-size: 35px;
   }
-  /*.main-text h3 {*/
-  /*  font-size: 10px;*/
-  /*}*/
-  /*.main-text p {*/
-  /*  font-size: 9px;*/
-  /*}*/
-  /*.main-text h1 {*/
-  /*  font-size: 12px;*/
-  /*}*/
+
   .page-title .title-head-subtitle {
     font-size: 14px;
   }
@@ -2414,12 +2452,4 @@ ul.social-intro li a:hover i {
     font-size: 10px;
     padding: 0 15px;
   }
-  /*.main-text-container {*/
-  /*  max-width: 50%;*/
-  /*  position: absolute;*/
-  /*  top: 0;*/
-  /*  left: 0;*/
-  /*  transform: translateX(-12px);*/
-  /*  margin-left: 0 !important;*/
-  /*}*/
 }
