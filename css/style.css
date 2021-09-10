@@ -2269,19 +2269,23 @@ ul.social-intro li a:hover i {
   .main-text-container {
     max-width: 50%;
   }
+  .main-text h1 {
+    font-size: 12px;
+  }
   .main-text p {
     margin: 11px 0 23px;
-    font-size: 14px;
+    font-size: 9px;
     line-height: 23px;
     font-weight: 400;
     font-family: 'Open Sans', sans-serif;
   }
-  .call-to-actions-home a:first-child
+  .call-to-actions-home a:first-child,
+  .btn:not(:disabled):not(.disabled)
   {
     margin-bottom: 8%;
     margin-right: 0;
-    height: 37px;
-    line-height: 37px;
+    height: 32px;
+    line-height: 32px;
     font-size: 10px;
     text-transform: uppercase;
     color: #fff;
@@ -2390,10 +2394,10 @@ ul.social-intro li a:hover i {
     font-size: 10px;
   }
   .main-text p {
-    font-size: 10px;
+    font-size: 9px;
   }
   .main-text h1 {
-    font-size: 14px;
+    font-size: 12px;
   }
   .page-title .title-head-subtitle {
     font-size: 14px;
@@ -2401,8 +2405,8 @@ ul.social-intro li a:hover i {
   .call-to-actions-home a:first-child,
   .btn:not(:disabled):not(.disabled)
   {
-    height: 32px;
-    line-height: 32px;
+    height: 30px;
+    line-height: 30px;
     font-size: 10px;
     padding: 0 15px;
   }
