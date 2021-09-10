@@ -42,7 +42,7 @@
 	padding: 5px 0;
 	border-bottom: #ccc 1px solid;
 	text-transform: uppercase;
-	font-size: 15px;
+	font-size: 13px;
 	font-weight: bold;
 	color: #333;
 	margin: 0 0 10px 0;
@@ -74,7 +74,7 @@
 	display: block;
 	border-bottom-left-radius: 3px;
 	border-top-left-radius: 4px;
-	padding: 10px 16px 10px 14px;
+	padding: 7px 11px 5px 9px;
 	cursor: pointer;
 }
 
@@ -99,7 +99,7 @@
 }
 
 #switcher .content-switcher {
-	padding: 16px 16px 0px 16px;
+	padding: 10px 2px 0 11px;
 	overflow: hidden;
 }
 
@@ -189,6 +189,6 @@
 		margin-top: 15px;
 	}
 	#showSwitcher, #switcher {
-		top: 250px;
+		top: 45px;
 	}
 }
